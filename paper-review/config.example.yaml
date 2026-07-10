@@ -32,7 +32,12 @@ fulltext:
   inbox_dir: "~/inbox/"            # where an upstream step may drop PDFs
   zotero_local_api: true          # true = try Zotero MCP / local API (needs Zotero running)
   elsevier_script: "elsevier_fulltext.py"   # bundled; needs an Elsevier TDM key (see SETUP.md)
-  # Institutional link-resolver (SFX/OpenURL) for subscribed full text. Leave blank to skip.
+  # Automated institutional downloader (proxy login + paywalled PDF). Leave blank to skip.
+  # Must expose: `<script> fetch <DOI> <out.pdf>`. SERIAL — never call it from parallel
+  # agents; it drives one exclusive browser profile.
+  # Reference implementation: https://github.com/drpwchen/paper-fetch
+  library_script: ""              # e.g. "~/.claude/skills/paper-download/library_session.py"
+  # Institutional link-resolver (SFX/OpenURL) — last-resort MANUAL fallback. Blank to skip.
   # {DOI} is substituted at query time.
   sfx_base: ""                    # e.g. "https://sfx.example.edu/openurl?...&rft_id=info:doi/{DOI}"
   institution_name: ""            # display name, e.g. "My University Library"

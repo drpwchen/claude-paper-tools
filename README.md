@@ -4,7 +4,7 @@ Two [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for rea
 academic paper *properly* — one appraises whether it can be trusted, the other absorbs what it says.
 Built by a practising physician for real journal-club and clinical use, then generalized for sharing.
 
-🔭 **Discovery** [paper-radar](https://github.com/drpwchen/paper-radar) ｜ ⬇️ **Download** [paper-fetch](https://github.com/drpwchen/paper-fetch) ｜ 📖 **Reading** claude-paper-tools — a literature radar finds and ranks papers, a route-ladder fetcher gets their full text, and these skills appraise and digest them; together the three repos form the full paper pipeline.
+🔭 **Discovery** [paper-radar](https://github.com/drpwchen/paper-radar) ｜ ⬇️ **Download** [paper-fetch](https://github.com/drpwchen/paper-fetch) ｜ 📖 **Reading** paper-review-and-digest — a literature radar finds and ranks papers, a route-ladder fetcher gets their full text, and these skills appraise and digest them; together the three repos form the full paper pipeline.
 
 > **English** · [繁體中文](#繁體中文)
 

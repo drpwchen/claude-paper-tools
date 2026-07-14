@@ -6,6 +6,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-07-14
+
+### Changed
+- **Repository renamed** `claude-paper-tools` → **`paper-review-and-digest`**, so the name says what
+  the two skills actually do instead of who built them. The old GitHub URL redirects permanently, so
+  existing clones, links, and stars keep working; no code, config key, or skill name changed.
+- Cross-link lines in this repo, `paper-radar`, and `paper-fetch` updated to the new name.
+
 ## [0.2.0] — 2026-07-10
 
 ### Changed
